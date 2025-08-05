@@ -148,6 +148,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+      <p className='text-white'>mak is here</p>
     </>
   )
 }
