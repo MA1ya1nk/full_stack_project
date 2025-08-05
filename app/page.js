@@ -22,7 +22,7 @@ export default function Home() {
       <hr className="opacity-15" />
 
       <div className="text-white flex flex-col justify-center items-center py-16">
-        <h1 className="md:text-2xl text-xl font-bold pb-8">Your friends can buy you a Chai with GetMeAChai</h1>
+        <h1 className="md:text-2xl text-xl font-bold pb-8">Your friends can buy you a Chai</h1>
         <div className="items flex gap-32 flex-col xl:flex-row">
           <div className="flex items-center justify-center flex-col">
             <img src="/support.gif" alt="support" />
