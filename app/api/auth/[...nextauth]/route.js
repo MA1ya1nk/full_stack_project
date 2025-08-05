@@ -1,7 +1,11 @@
 import NextAuth from 'next-auth'
 // import AppleProvider from 'next-auth/providers/apple'
 // import FacebookProvider from 'next-auth/providers/facebook'
+
 // import GoogleProvider from 'next-auth/providers/google'
+
+ import GoogleProvider from 'next-auth/providers/google'
+
 // import EmailProvider from 'next-auth/providers/email'
 import GitHubProvider from 'next-auth/providers/github'
 import User from '@/models/User'
@@ -28,6 +32,16 @@ export const authOptions =  NextAuth({
     //   server: process.env.MAIL_SERVER,
     //   from: 'NextAuth.js <no-reply@example.com>'
     // }),
+
+    GoogleProvider({
+      clientId: process.env.GOOGLE_ID,
+      clientSecret: process.env.GOOGLE_SECRET,
+      authorization: {
+        params: {
+          scope: "openid email profile",
+        },
+      },
+    }),
     GitHubProvider({
         clientId: process.env.GITHUB_ID,
         clientSecret: process.env.GITHUB_SECRET
@@ -36,7 +50,9 @@ export const authOptions =  NextAuth({
   secret: process.env.NEXTAUTH_SECRET,
   callbacks :{
     async signIn({ user, account, profile, email, credentials }){
-      if(account.provider == 'github'){
+
+      if(account.provider == 'github' || account.provider == 'google'){
+
         // connect to database
         const client = await mongoose.connect(process.env.MONGODB_URI)
 
