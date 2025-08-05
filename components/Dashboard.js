@@ -91,35 +91,35 @@ const Dashboard = () => {
           <div className="sections md:w-[36rem]">
             {/* input for name */}
             <div className="my-2">
-              <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+              <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-200">Name</label>
               <input value={form.name ? form.name : ""} onChange={handleChange}
                 type="text"
                 name='name' id="name" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder='Enter name' />
             </div>
             {/* input for email */}
             <div className="my-2">
-              <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+              <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-200">Email</label>
               <input value={form.email ? form.email : ""} onChange={handleChange}
                 type="email"
                 name='email' id="email" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder='Enter email' />
             </div>
             {/* input for username */}
             <div className="my-2">
-              <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username </label>
+              <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-200">Username </label>
               <input value={form.username ? form.username : ""} onChange={handleChange}
                 type="text"
                 name='username' id="username" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder='Enter username' />
             </div>
             {/* input for profile picture */}
             <div className="my-2">
-              <label htmlFor="profilepicture" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Profile Picture</label>
+              <label htmlFor="profilepicture" className="block mb-2 text-sm font-medium text-gray-200">Profile Picture</label>
               <input value={form.profilepicture ? form.profilepicture : ""} onChange={handleChange}
                 type="text"
                 name='profilepicture' id="profilepicture" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder='Enter profile picture' />
             </div>
             {/* input for cover picture */}
             <div className="my-2">
-              <label htmlFor="coverpicture" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Cover Picture</label>
+              <label htmlFor="coverpicture" className="block mb-2 text-sm font-medium text-gray-200">Cover Picture</label>
               <input value={form.coverpicture ? form.coverpicture : ""} onChange={handleChange}
                 type="text"
                 name='coverpicture' id="coverpicture" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder='Enter cover picture' />
@@ -128,14 +128,14 @@ const Dashboard = () => {
 
             {/* input for Razorpay id */}
             <div className="my-2">
-              <label htmlFor="razorpayid" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Razorpay Id</label>
+              <label htmlFor="razorpayid" className="block mb-2 text-sm font-medium text-gray-200">Razorpay Id</label>
               <input value={form.razorpayid ? form.razorpayid : ""} onChange={handleChange}
                 type="text"
                 name='razorpayid' id="razorpayid" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder='Enter razorpay id' />
             </div>
             {/* input for Razorpay secret */}
             <div className="my-2">
-              <label htmlFor="razorpaysecret" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Razorpay Secret</label>
+              <label htmlFor="razorpaysecret" className="block mb-2 text-sm font-medium text-gray-200">Razorpay Secret</label>
               <input value={form.razorpaysecret ? form.razorpaysecret : ""} onChange={handleChange}
                 type="text"
                 name='razorpaysecret' id="razorpaysecret" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder="Enter razorpay secret" />
