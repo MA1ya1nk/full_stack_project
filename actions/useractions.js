@@ -61,3 +61,9 @@ export const updateProfile = async (data, username, email) => {
     }
     const user = await User.findOneAndUpdate({ username: username }, data, {new: true });
 }
+
+export const getUser= async ()=>{
+    await connectDB();
+    let user=await User.find({})
+    return user
+}
