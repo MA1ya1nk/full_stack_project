@@ -269,14 +269,26 @@ const PaymentPage = ({ params }) => {
       </div>
 
    {/* Adding animated note section  */}
-   
-       <div className="overflow-hidden whitespace-nowrap bg-black text-sm text-gray-400 py-2">
+
+       {/* <div className="overflow-hidden whitespace-nowrap bg-black text-sm text-gray-400 py-2">
         <div className="inline-block animate-marquee">
             <p className="animate-marquee text-sm text-gray-400 py-2 font-bold">
               NOTE : Use <u>test@razorpay</u> for Payments.
             </p>
         </div>
-      </div> 
+      </div>  */}
+
+      <div className="overflow-hidden whitespace-nowrap bg-black text-sm text-gray-400 py-2">
+  <div className="inline-block animate-marquee">
+    <span className="mr-10 font-bold">
+      NOTE : Use <u>test@razorpay</u> for Payments.
+    </span>
+    {/* <span className="mr-10 font-bold">
+      NOTE : Use <u>test@razorpay</u> for Payments.
+    </span> */}
+  </div>
+</div>
+
 
     </>
   );

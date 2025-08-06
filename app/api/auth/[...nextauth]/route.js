@@ -66,8 +66,8 @@ export const authOptions =  NextAuth({
             username: user.email.split('@')[0],
             profilepicture: profile.avatar_url,
             // coverpicture: profile.avatar_url,
-            // razorpayid: process.env.RAZORPAY_ID,
-            // razorpaysecret: process.env.RAZORPAY_SECRET
+             razorpayid: process.env.RAZORPAY_ID,
+             razorpaysecret: process.env.RAZORPAY_SECRET
           })
           await newUser.save()
           user.name = newUser.username
