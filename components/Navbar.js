@@ -14,7 +14,7 @@ const Navbar = () => {
   //   </>
   // }
   return (
-    <nav className='flex justify-between p-4 py-4 items-center bg-blue-950 text-white'>
+    <nav className='flex justify-between p-4 py-4 items-center bg-blue-900 text-white'>
       <Link href={'/'} className="logo font-bold text-3xl">Chai</Link>
       <div className="links flex gap-5">
         <div className="flex flex-row ">

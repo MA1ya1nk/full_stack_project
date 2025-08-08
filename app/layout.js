@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <SessionWrapper>
           <Navbar />
-          <div className="text-white min-h-[85.1vh] bg-slate-950 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,020617t_100%)]">
+          <div className="text-white min-h-[85.1vh] bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
           {children}
           </div>
           <Footer />

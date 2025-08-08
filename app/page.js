@@ -6,8 +6,8 @@ export default function Home() {
     <div className="className=" text-white>
       <div className="flex flex-col gap-4 h-96 items-center justify-center text-white">
         <div>
-          <h1 className="text-4xl font-bold text-center text-white">Welcome to Chai</h1>
-          <p className="text-center text-sm px-6">A crowdfunding platform for devlopers to fund their projects with chai.</p>
+          <h1 className="text-4xl font-bold text-center text-white flex justify-center items-center">Welcome to Chai <span><img className="invertImg" src="/tea (1).gif" width={88} alt="" /></span></h1>
+          <p className="text-center text-sm px-6">A crowdfunding platform for developers to fund their projects with chai.</p>
         </div>
         <div className="flex justify-center">
           <Link href="/about">
@@ -25,22 +25,22 @@ export default function Home() {
       <hr className="opacity-15" />
 
       <div className="text-white flex flex-col justify-center items-center py-16">
-        <h1 className="md:text-2xl text-xl font-bold pb-8">Your friends can buy you a Chai</h1>
+        <h1 className="md:text-2xl text-xl font-bold pb-8">Your Supporters can buy you a Chai</h1>
         <div className="items flex gap-32 flex-col xl:flex-row">
           <div className="flex items-center justify-center flex-col">
             <img src="/support.gif" alt="support" />
-            <p className="font-bold ">Friends want to help</p>
-            <span>Your friends are available to support you</span>
+            <p className="font-bold ">Supporters want to help</p>
+            <span>Your supporters are available to support you</span>
           </div>
           <div className="flex items-center justify-center flex-col">
             <img src="/support.gif" alt="support" />
-            <p className="font-bold">Friends want to contribute</p>
-            <span>Your friends are willing to contribute financially</span>
+            <p className="font-bold">Supporters want to contribute</p>
+            <span>Your supporters are willing to contribute financially</span>
           </div>
           <div className="flex items-center justify-center flex-col">
             <img src="/support.gif" alt="support" />
-            <p className="font-bold">Friends want to collaborate</p>
-            <span>Your friends are ready for collaboration</span>
+            <p className="font-bold">Supporters want to collaborate</p>
+            <span>Your supporters are ready for collaboration</span>
           </div>
         </div>
       </div>
