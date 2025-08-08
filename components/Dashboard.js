@@ -129,14 +129,14 @@ const Dashboard = () => {
             {/* input for Razorpay id */}
             <div className="my-2">
               <label htmlFor="razorpayid" className="block mb-2 text-sm font-medium text-gray-200">Razorpay Id</label>
-              <input value={form.razorpayid ? form.razorpayid : ""} onChange={handleChange}
+              <input value={form.razorpayid?.length ? "*".repeat(form.razorpayid.length) : ""} onChange={handleChange}
                 type="text"
                 name='razorpayid' id="razorpayid" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder='Enter razorpay id' />
             </div>
             {/* input for Razorpay secret */}
             <div className="my-2">
               <label htmlFor="razorpaysecret" className="block mb-2 text-sm font-medium text-gray-200">Razorpay Secret</label>
-              <input value={form.razorpaysecret ? form.razorpaysecret : ""} onChange={handleChange}
+              <input value={form.razorpaysecret?.length ? "*".repeat(form.razorpaysecret.length) : ""} onChange={handleChange}
                 type="text"
                 name='razorpaysecret' id="razorpaysecret" className='w-80 md:w-full px-3 py-2 rounded-lg bg-slate-700 focus:outline-none hover:ring-white focus:ring-1' placeholder="Enter razorpay secret" />
             </div>
