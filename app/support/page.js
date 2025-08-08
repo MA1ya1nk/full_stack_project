@@ -23,7 +23,7 @@ const page = () => {
     <>
 
     <div className="max-w-8xl mx-auto px-4 py-8">
-      <h2 className="text-4xl font-bold text-center mb-6 text-white">Supporters</h2>
+      <h2 className="text-4xl font-bold text-center mb-6 text-white">Creators</h2>
       
       <div className="grid grid-cols-1 gap-6">
          {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div> */}
