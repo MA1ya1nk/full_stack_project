@@ -49,6 +49,20 @@ const Dashboard = () => {
       });
       return
     }
+    if(form.email !== session.user.email){
+      toast.error('Email Update Not Allowed', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Flip,
+      });
+      return
+    }
     updateProfile(form, session.user.username, session.user.email)
     toast('Profile Updated sucessfully!', {
       // type: 'success',

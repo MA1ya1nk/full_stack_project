@@ -7,6 +7,8 @@ import User from "@/models/User";
 
 export const POST = async (req) => {
     await connectDB();
+
+    // reading the callback url and it is not in json format it is in a coded format that is decoded by these two steps
     let body = await req.formData();
     body = Object.fromEntries(body);
 

@@ -18,7 +18,8 @@ export const createOrder = async (amount, to_user, paymentform) => {
             amount: amount * 100,
             currency: "INR",
         };
-
+                        
+                 // creating a new payment order
         let order = await instance.orders.create(options);
 
         //create a payment instance which shows pending payment in the database
