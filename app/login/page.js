@@ -22,6 +22,7 @@ const page = () => {
   // }
 
   return (
+    <>
     <div className='flex flex-col justify-center items-center text-white py-32 '>
       <div className="wrapper border bg-neutral-50/5 p-16 rounded-md">
         <h1 className="text-4xl font-bold text-center text-white pb-12">Login/Signup to get you account </h1>
@@ -63,6 +64,18 @@ const page = () => {
       </div>
 
     </div>
+
+    <div className="overflow-hidden whitespace-nowrap bg-black text-sm text-gray-400 py-2">
+  <div className="inline-block animate-marquee">
+    <span className="mr-10 font-bold">
+      NOTE : Use GOOGLE and GITHUB for Login.
+    </span>
+    {/* <span className="mr-10 font-bold">
+      NOTE : Use <u>test@razorpay</u> for Payments.
+    </span> */}
+  </div>
+</div>
+    </>
   )
 }
 
