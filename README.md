@@ -92,7 +92,7 @@ We welcome contributions to GetMeAChai! If you have suggestions or want to help 
 
 ## Contact
 
-For any inquiries or support, please contact us at [support@getmeachai.com](mailto:rishi.sharma4945@gmail.com).
+For any inquiries or support, please contact us at [support@getmeachai.com](mailto:mk20040307@gmail.com).
 
 ---
 
