@@ -25,7 +25,7 @@ To get started with GetMeAChai, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/RishiSharmapro/GetMeAChai.git
+   git clone https://github.com/MA1ya1nk/full_stack_project.git
    ```
 
 2. **Navigate to the Project Directory**
